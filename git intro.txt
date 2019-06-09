@@ -1,0 +1,1215 @@
+Microsoft Windows [Version 10.0.10586]
+(c) 2015 Microsoft Corporation. All rights reserved.
+
+C:\Users\asha>git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+C:\Users\asha>git config --global user.name "asha"
+
+C:\Users\asha>git config --global user.email "gondesiasha123@gmail.com"
+
+C:\Users\asha>cd..
+
+C:\Users>cd ..
+
+C:\>cd myproject
+
+C:\myproject>git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\myproject>git init
+Initialized empty Git repository in C:/myproject/.git/
+
+C:\myproject>git add .
+warning: LF will be replaced by CRLF in node_modules/@hapi/accept/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/accept/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/accept/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/accept/lib/header.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/accept/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/accept/lib/media.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/accept/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/address/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/ammo/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/ammo/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/ammo/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/ammo/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/ammo/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/b64/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/b64/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/b64/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/b64/lib/decoder.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/b64/lib/encoder.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/b64/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/b64/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/boom/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/boom/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/bounce/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/bounce/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/bounce/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/bounce/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/bounce/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/bounce/test/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/bourne/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/bourne/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/bourne/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/call/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/call/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/call/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/call/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/call/lib/regex.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/call/lib/segment.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/call/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/catbox-memory/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/catbox-memory/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/catbox-memory/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/catbox-memory/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/catbox-memory/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/catbox/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/catbox/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/catbox/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/catbox/lib/client.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/catbox/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/catbox/lib/pending.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/catbox/lib/policy.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/catbox/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/content/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/content/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/content/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/content/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/content/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/cryptiles/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/cryptiles/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/cryptiles/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/cryptiles/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/cryptiles/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/lib/auth.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/lib/compression.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/lib/config.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/lib/core.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/lib/cors.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/lib/ext.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/lib/handler.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/lib/headers.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/lib/methods.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/lib/request.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/lib/response.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/lib/route.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/lib/security.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/lib/server.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/lib/streams.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/lib/toolkit.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/lib/transmit.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/lib/validation.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hapi/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/heavy/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/heavy/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/heavy/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/heavy/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/heavy/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hoek/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hoek/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hoek/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hoek/lib/deep-equal.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hoek/lib/escape.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hoek/lib/index.d.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hoek/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hoek/lib/types.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/hoek/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/iron/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/iron/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/iron/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/iron/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/iron/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/cast.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/errors.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/language.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/ref.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/schemas.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/set.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/types/alternatives/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/types/any/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/types/any/settings.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/types/array/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/types/binary/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/types/boolean/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/types/date/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/types/func/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/types/lazy/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/types/number/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/types/object/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/types/state.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/types/string/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/types/string/ip.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/types/string/rfc3986.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/types/string/uri.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/types/symbol/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/lib/types/symbols.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/joi/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/mimos/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/mimos/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/mimos/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/mimos/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/mimos/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/nigel/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/nigel/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/nigel/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/nigel/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/nigel/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/pez/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/pez/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/pez/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/pez/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/pez/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/podium/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/podium/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/podium/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/podium/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/podium/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/shot/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/shot/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/shot/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/shot/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/shot/lib/request.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/shot/lib/response.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/shot/lib/schema.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/shot/lib/symbols.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/shot/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/somever/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/somever/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/somever/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/somever/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/somever/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/somever/test/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/statehood/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/statehood/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/statehood/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/statehood/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/statehood/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/subtext/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/subtext/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/subtext/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/subtext/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/subtext/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/teamwork/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/teamwork/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/teamwork/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/teamwork/lib/index.d.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/teamwork/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/teamwork/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/topo/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/topo/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/topo/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/topo/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/topo/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/vise/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/vise/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/vise/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/vise/lib/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/vise/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/@hapi/wreck/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/bignumber.js/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/core-util-is/LICENSE.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/core-util-is/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/core-util-is/float.patch.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/core-util-is/lib/util.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/core-util-is/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/core-util-is/test.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/dotenv/CHANGELOG.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/dotenv/LICENSE.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/dotenv/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/dotenv/config.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/dotenv/lib/cli-options.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/dotenv/lib/env-options.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/dotenv/lib/main.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/dotenv/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/inherits/LICENSE.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/inherits/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/inherits/inherits.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/inherits/inherits_browser.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/inherits/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/isarray/.npmignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/isarray/.travis.yml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/isarray/Makefile.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/isarray/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/isarray/component.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/isarray/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/isarray/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/isarray/test.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mime-db/HISTORY.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mime-db/LICENSE.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mime-db/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mime-db/db.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mime-db/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mime-db/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/Changes.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/License.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/Readme.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/Connection.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/ConnectionConfig.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/Pool.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/PoolCluster.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/PoolConfig.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/PoolConnection.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/PoolNamespace.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/PoolSelector.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/Auth.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/BufferList.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/PacketHeader.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/PacketWriter.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/Parser.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/Protocol.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/ResultSet.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/SqlString.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/Timer.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/constants/charsets.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/constants/client.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/constants/errors.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/constants/field_flags.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/constants/server_status.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/constants/ssl_profiles.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/constants/types.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/AuthSwitchRequestPacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/AuthSwitchResponsePacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/ComPingPacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/ComQueryPacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/ComQuitPacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/ComStatisticsPacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/EmptyPacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/EofPacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/ErrorPacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/Field.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/FieldPacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/OkPacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/OldPasswordPacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/RowDataPacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/SSLRequestPacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/StatisticsPacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/UseOldPasswordPacket.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/packets/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/sequences/ChangeUser.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/sequences/Handshake.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/sequences/Ping.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/sequences/Query.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/sequences/Quit.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/sequences/Sequence.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/sequences/Statistics.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/lib/protocol/sequences/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/mysql/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/process-nextick-args/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/process-nextick-args/license.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/process-nextick-args/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/process-nextick-args/readme.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/.travis.yml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/CONTRIBUTING.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/GOVERNANCE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/LICENSE.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/doc/wg-meetings/2015-01-30.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/duplex-browser.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/duplex.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/lib/_stream_duplex.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/lib/_stream_passthrough.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/lib/_stream_readable.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/lib/_stream_transform.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/lib/_stream_writable.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/lib/internal/streams/BufferList.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/lib/internal/streams/destroy.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/lib/internal/streams/stream-browser.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/lib/internal/streams/stream.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/passthrough.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/readable-browser.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/readable.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/transform.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/writable-browser.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/readable-stream/writable.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/safe-buffer/LICENSE.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/safe-buffer/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/safe-buffer/index.d.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/safe-buffer/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/safe-buffer/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/sqlstring/HISTORY.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/sqlstring/LICENSE.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/sqlstring/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/sqlstring/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/sqlstring/lib/SqlString.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/sqlstring/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/string_decoder/.travis.yml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/string_decoder/LICENSE.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/string_decoder/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/string_decoder/lib/string_decoder.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/string_decoder/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/util-deprecate/History.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/util-deprecate/LICENSE.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/util-deprecate/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/util-deprecate/browser.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/util-deprecate/node.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in node_modules/util-deprecate/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+
+C:\myproject>git commit -m 'inital version'
+error: pathspec 'version'' did not match any file(s) known to git
+
+C:\myproject>git commit -m "initial version"
+[master (root-commit) 4ef580d] initial version
+ 396 files changed, 66633 insertions(+)
+ create mode 100644 .env
+ create mode 100644 node_modules/@hapi/accept/.npmignore
+ create mode 100644 node_modules/@hapi/accept/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/accept/LICENSE.md
+ create mode 100644 node_modules/@hapi/accept/README.md
+ create mode 100644 node_modules/@hapi/accept/lib/header.js
+ create mode 100644 node_modules/@hapi/accept/lib/index.js
+ create mode 100644 node_modules/@hapi/accept/lib/media.js
+ create mode 100644 node_modules/@hapi/accept/package.json
+ create mode 100644 node_modules/@hapi/address/.travis.yml
+ create mode 100644 node_modules/@hapi/address/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/address/LICENSE.md
+ create mode 100644 node_modules/@hapi/address/README.md
+ create mode 100644 node_modules/@hapi/address/bench/test.js
+ create mode 100644 node_modules/@hapi/address/lib/abnf.js
+ create mode 100644 node_modules/@hapi/address/lib/index.js
+ create mode 100644 node_modules/@hapi/address/lib/tlds.js
+ create mode 100644 node_modules/@hapi/address/package.json
+ create mode 100644 node_modules/@hapi/address/test/index.js
+ create mode 100644 node_modules/@hapi/ammo/.npmignore
+ create mode 100644 node_modules/@hapi/ammo/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/ammo/LICENSE.md
+ create mode 100644 node_modules/@hapi/ammo/README.md
+ create mode 100644 node_modules/@hapi/ammo/lib/index.js
+ create mode 100644 node_modules/@hapi/ammo/package.json
+ create mode 100644 node_modules/@hapi/b64/.npmignore
+ create mode 100644 node_modules/@hapi/b64/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/b64/LICENSE.md
+ create mode 100644 node_modules/@hapi/b64/README.md
+ create mode 100644 node_modules/@hapi/b64/lib/decoder.js
+ create mode 100644 node_modules/@hapi/b64/lib/encoder.js
+ create mode 100644 node_modules/@hapi/b64/lib/index.js
+ create mode 100644 node_modules/@hapi/b64/package.json
+ create mode 100644 node_modules/@hapi/boom/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/boom/LICENSE.md
+ create mode 100644 node_modules/@hapi/boom/README.md
+ create mode 100644 node_modules/@hapi/boom/lib/index.js
+ create mode 100644 node_modules/@hapi/boom/package.json
+ create mode 100644 node_modules/@hapi/bounce/.travis.yml
+ create mode 100644 node_modules/@hapi/bounce/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/bounce/LICENSE.md
+ create mode 100644 node_modules/@hapi/bounce/README.md
+ create mode 100644 node_modules/@hapi/bounce/lib/index.js
+ create mode 100644 node_modules/@hapi/bounce/package.json
+ create mode 100644 node_modules/@hapi/bounce/test/index.js
+ create mode 100644 node_modules/@hapi/bourne/.npmignore
+ create mode 100644 node_modules/@hapi/bourne/LICENSE.md
+ create mode 100644 node_modules/@hapi/bourne/README.md
+ create mode 100644 node_modules/@hapi/bourne/lib/index.js
+ create mode 100644 node_modules/@hapi/bourne/package.json
+ create mode 100644 node_modules/@hapi/call/.npmignore
+ create mode 100644 node_modules/@hapi/call/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/call/LICENSE.md
+ create mode 100644 node_modules/@hapi/call/README.md
+ create mode 100644 node_modules/@hapi/call/lib/index.js
+ create mode 100644 node_modules/@hapi/call/lib/regex.js
+ create mode 100644 node_modules/@hapi/call/lib/segment.js
+ create mode 100644 node_modules/@hapi/call/package.json
+ create mode 100644 node_modules/@hapi/catbox-memory/.npmignore
+ create mode 100644 node_modules/@hapi/catbox-memory/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/catbox-memory/LICENSE.md
+ create mode 100644 node_modules/@hapi/catbox-memory/README.md
+ create mode 100644 node_modules/@hapi/catbox-memory/lib/index.js
+ create mode 100644 node_modules/@hapi/catbox-memory/package.json
+ create mode 100644 node_modules/@hapi/catbox/.npmignore
+ create mode 100644 node_modules/@hapi/catbox/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/catbox/LICENSE.md
+ create mode 100644 node_modules/@hapi/catbox/README.md
+ create mode 100644 node_modules/@hapi/catbox/lib/client.js
+ create mode 100644 node_modules/@hapi/catbox/lib/index.js
+ create mode 100644 node_modules/@hapi/catbox/lib/pending.js
+ create mode 100644 node_modules/@hapi/catbox/lib/policy.js
+ create mode 100644 node_modules/@hapi/catbox/package.json
+ create mode 100644 node_modules/@hapi/content/.npmignore
+ create mode 100644 node_modules/@hapi/content/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/content/LICENSE.md
+ create mode 100644 node_modules/@hapi/content/README.md
+ create mode 100644 node_modules/@hapi/content/lib/index.js
+ create mode 100644 node_modules/@hapi/content/package.json
+ create mode 100644 node_modules/@hapi/cryptiles/.npmignore
+ create mode 100644 node_modules/@hapi/cryptiles/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/cryptiles/LICENSE.md
+ create mode 100644 node_modules/@hapi/cryptiles/README.md
+ create mode 100644 node_modules/@hapi/cryptiles/lib/index.js
+ create mode 100644 node_modules/@hapi/cryptiles/package.json
+ create mode 100644 node_modules/@hapi/hapi/.npmignore
+ create mode 100644 node_modules/@hapi/hapi/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/hapi/LICENSE.md
+ create mode 100644 node_modules/@hapi/hapi/README.md
+ create mode 100644 node_modules/@hapi/hapi/lib/auth.js
+ create mode 100644 node_modules/@hapi/hapi/lib/compression.js
+ create mode 100644 node_modules/@hapi/hapi/lib/config.js
+ create mode 100644 node_modules/@hapi/hapi/lib/core.js
+ create mode 100644 node_modules/@hapi/hapi/lib/cors.js
+ create mode 100644 node_modules/@hapi/hapi/lib/ext.js
+ create mode 100644 node_modules/@hapi/hapi/lib/handler.js
+ create mode 100644 node_modules/@hapi/hapi/lib/headers.js
+ create mode 100644 node_modules/@hapi/hapi/lib/index.js
+ create mode 100644 node_modules/@hapi/hapi/lib/methods.js
+ create mode 100644 node_modules/@hapi/hapi/lib/request.js
+ create mode 100644 node_modules/@hapi/hapi/lib/response.js
+ create mode 100644 node_modules/@hapi/hapi/lib/route.js
+ create mode 100644 node_modules/@hapi/hapi/lib/security.js
+ create mode 100644 node_modules/@hapi/hapi/lib/server.js
+ create mode 100644 node_modules/@hapi/hapi/lib/streams.js
+ create mode 100644 node_modules/@hapi/hapi/lib/toolkit.js
+ create mode 100644 node_modules/@hapi/hapi/lib/transmit.js
+ create mode 100644 node_modules/@hapi/hapi/lib/validation.js
+ create mode 100644 node_modules/@hapi/hapi/package.json
+ create mode 100644 node_modules/@hapi/heavy/.npmignore
+ create mode 100644 node_modules/@hapi/heavy/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/heavy/LICENSE.md
+ create mode 100644 node_modules/@hapi/heavy/README.md
+ create mode 100644 node_modules/@hapi/heavy/lib/index.js
+ create mode 100644 node_modules/@hapi/heavy/package.json
+ create mode 100644 node_modules/@hapi/hoek/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/hoek/LICENSE.md
+ create mode 100644 node_modules/@hapi/hoek/README.md
+ create mode 100644 node_modules/@hapi/hoek/lib/deep-equal.js
+ create mode 100644 node_modules/@hapi/hoek/lib/escape.js
+ create mode 100644 node_modules/@hapi/hoek/lib/index.d.ts
+ create mode 100644 node_modules/@hapi/hoek/lib/index.js
+ create mode 100644 node_modules/@hapi/hoek/lib/types.js
+ create mode 100644 node_modules/@hapi/hoek/package.json
+ create mode 100644 node_modules/@hapi/iron/.npmignore
+ create mode 100644 node_modules/@hapi/iron/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/iron/LICENSE.md
+ create mode 100644 node_modules/@hapi/iron/README.md
+ create mode 100644 node_modules/@hapi/iron/lib/index.js
+ create mode 100644 node_modules/@hapi/iron/package.json
+ create mode 100644 node_modules/@hapi/joi/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/joi/LICENSE.md
+ create mode 100644 node_modules/@hapi/joi/README.md
+ create mode 100644 node_modules/@hapi/joi/lib/cast.js
+ create mode 100644 node_modules/@hapi/joi/lib/errors.js
+ create mode 100644 node_modules/@hapi/joi/lib/index.js
+ create mode 100644 node_modules/@hapi/joi/lib/language.js
+ create mode 100644 node_modules/@hapi/joi/lib/ref.js
+ create mode 100644 node_modules/@hapi/joi/lib/schemas.js
+ create mode 100644 node_modules/@hapi/joi/lib/set.js
+ create mode 100644 node_modules/@hapi/joi/lib/types/alternatives/index.js
+ create mode 100644 node_modules/@hapi/joi/lib/types/any/index.js
+ create mode 100644 node_modules/@hapi/joi/lib/types/any/settings.js
+ create mode 100644 node_modules/@hapi/joi/lib/types/array/index.js
+ create mode 100644 node_modules/@hapi/joi/lib/types/binary/index.js
+ create mode 100644 node_modules/@hapi/joi/lib/types/boolean/index.js
+ create mode 100644 node_modules/@hapi/joi/lib/types/date/index.js
+ create mode 100644 node_modules/@hapi/joi/lib/types/func/index.js
+ create mode 100644 node_modules/@hapi/joi/lib/types/lazy/index.js
+ create mode 100644 node_modules/@hapi/joi/lib/types/number/index.js
+ create mode 100644 node_modules/@hapi/joi/lib/types/object/index.js
+ create mode 100644 node_modules/@hapi/joi/lib/types/state.js
+ create mode 100644 node_modules/@hapi/joi/lib/types/string/index.js
+ create mode 100644 node_modules/@hapi/joi/lib/types/string/ip.js
+ create mode 100644 node_modules/@hapi/joi/lib/types/string/rfc3986.js
+ create mode 100644 node_modules/@hapi/joi/lib/types/string/uri.js
+ create mode 100644 node_modules/@hapi/joi/lib/types/symbol/index.js
+ create mode 100644 node_modules/@hapi/joi/lib/types/symbols.js
+ create mode 100644 node_modules/@hapi/joi/package.json
+ create mode 100644 node_modules/@hapi/mimos/.npmignore
+ create mode 100644 node_modules/@hapi/mimos/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/mimos/LICENSE.md
+ create mode 100644 node_modules/@hapi/mimos/README.md
+ create mode 100644 node_modules/@hapi/mimos/lib/index.js
+ create mode 100644 node_modules/@hapi/mimos/package.json
+ create mode 100644 node_modules/@hapi/nigel/.npmignore
+ create mode 100644 node_modules/@hapi/nigel/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/nigel/LICENSE.md
+ create mode 100644 node_modules/@hapi/nigel/README.md
+ create mode 100644 node_modules/@hapi/nigel/lib/index.js
+ create mode 100644 node_modules/@hapi/nigel/package.json
+ create mode 100644 node_modules/@hapi/pez/.npmignore
+ create mode 100644 node_modules/@hapi/pez/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/pez/LICENSE.md
+ create mode 100644 node_modules/@hapi/pez/README.md
+ create mode 100644 node_modules/@hapi/pez/lib/index.js
+ create mode 100644 node_modules/@hapi/pez/package.json
+ create mode 100644 node_modules/@hapi/podium/.npmignore
+ create mode 100644 node_modules/@hapi/podium/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/podium/LICENSE.md
+ create mode 100644 node_modules/@hapi/podium/README.md
+ create mode 100644 node_modules/@hapi/podium/lib/index.js
+ create mode 100644 node_modules/@hapi/podium/package.json
+ create mode 100644 node_modules/@hapi/shot/.npmignore
+ create mode 100644 node_modules/@hapi/shot/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/shot/LICENSE.md
+ create mode 100644 node_modules/@hapi/shot/README.md
+ create mode 100644 node_modules/@hapi/shot/lib/index.js
+ create mode 100644 node_modules/@hapi/shot/lib/request.js
+ create mode 100644 node_modules/@hapi/shot/lib/response.js
+ create mode 100644 node_modules/@hapi/shot/lib/schema.js
+ create mode 100644 node_modules/@hapi/shot/lib/symbols.js
+ create mode 100644 node_modules/@hapi/shot/package.json
+ create mode 100644 node_modules/@hapi/somever/.travis.yml
+ create mode 100644 node_modules/@hapi/somever/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/somever/LICENSE.md
+ create mode 100644 node_modules/@hapi/somever/README.md
+ create mode 100644 node_modules/@hapi/somever/lib/index.js
+ create mode 100644 node_modules/@hapi/somever/package.json
+ create mode 100644 node_modules/@hapi/somever/test/index.js
+ create mode 100644 node_modules/@hapi/statehood/.npmignore
+ create mode 100644 node_modules/@hapi/statehood/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/statehood/LICENSE.md
+ create mode 100644 node_modules/@hapi/statehood/README.md
+ create mode 100644 node_modules/@hapi/statehood/lib/index.js
+ create mode 100644 node_modules/@hapi/statehood/package.json
+ create mode 100644 node_modules/@hapi/subtext/.npmignore
+ create mode 100644 node_modules/@hapi/subtext/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/subtext/LICENSE.md
+ create mode 100644 node_modules/@hapi/subtext/README.md
+ create mode 100644 node_modules/@hapi/subtext/lib/index.js
+ create mode 100644 node_modules/@hapi/subtext/package.json
+ create mode 100644 node_modules/@hapi/teamwork/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/teamwork/LICENSE.md
+ create mode 100644 node_modules/@hapi/teamwork/README.md
+ create mode 100644 node_modules/@hapi/teamwork/lib/index.d.ts
+ create mode 100644 node_modules/@hapi/teamwork/lib/index.js
+ create mode 100644 node_modules/@hapi/teamwork/package.json
+ create mode 100644 node_modules/@hapi/topo/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/topo/LICENSE.md
+ create mode 100644 node_modules/@hapi/topo/README.md
+ create mode 100644 node_modules/@hapi/topo/lib/index.js
+ create mode 100644 node_modules/@hapi/topo/package.json
+ create mode 100644 node_modules/@hapi/vise/.npmignore
+ create mode 100644 node_modules/@hapi/vise/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/vise/LICENSE.md
+ create mode 100644 node_modules/@hapi/vise/README.md
+ create mode 100644 node_modules/@hapi/vise/lib/index.js
+ create mode 100644 node_modules/@hapi/vise/package.json
+ create mode 100644 node_modules/@hapi/wreck/.npmignore
+ create mode 100644 node_modules/@hapi/wreck/CHANGELOG.md
+ create mode 100644 node_modules/@hapi/wreck/LICENSE.md
+ create mode 100644 node_modules/@hapi/wreck/README.md
+ create mode 100644 node_modules/@hapi/wreck/lib/index.js
+ create mode 100644 node_modules/@hapi/wreck/lib/payload.js
+ create mode 100644 node_modules/@hapi/wreck/lib/recorder.js
+ create mode 100644 node_modules/@hapi/wreck/lib/tap.js
+ create mode 100644 node_modules/@hapi/wreck/package.json
+ create mode 100644 node_modules/bignumber.js/CHANGELOG.md
+ create mode 100644 node_modules/bignumber.js/LICENCE
+ create mode 100644 node_modules/bignumber.js/README.md
+ create mode 100644 node_modules/bignumber.js/bignumber.d.ts
+ create mode 100644 node_modules/bignumber.js/bignumber.js
+ create mode 100644 node_modules/bignumber.js/bignumber.js.map
+ create mode 100644 node_modules/bignumber.js/bignumber.min.js
+ create mode 100644 node_modules/bignumber.js/bignumber.mjs
+ create mode 100644 node_modules/bignumber.js/bower.json
+ create mode 100644 node_modules/bignumber.js/doc/API.html
+ create mode 100644 node_modules/bignumber.js/package.json
+ create mode 100644 node_modules/core-util-is/LICENSE
+ create mode 100644 node_modules/core-util-is/README.md
+ create mode 100644 node_modules/core-util-is/float.patch
+ create mode 100644 node_modules/core-util-is/lib/util.js
+ create mode 100644 node_modules/core-util-is/package.json
+ create mode 100644 node_modules/core-util-is/test.js
+ create mode 100644 node_modules/dotenv/CHANGELOG.md
+ create mode 100644 node_modules/dotenv/LICENSE
+ create mode 100644 node_modules/dotenv/README.md
+ create mode 100644 node_modules/dotenv/config.js
+ create mode 100644 node_modules/dotenv/lib/cli-options.js
+ create mode 100644 node_modules/dotenv/lib/env-options.js
+ create mode 100644 node_modules/dotenv/lib/main.js
+ create mode 100644 node_modules/dotenv/package.json
+ create mode 100644 node_modules/inherits/LICENSE
+ create mode 100644 node_modules/inherits/README.md
+ create mode 100644 node_modules/inherits/inherits.js
+ create mode 100644 node_modules/inherits/inherits_browser.js
+ create mode 100644 node_modules/inherits/package.json
+ create mode 100644 node_modules/isarray/.npmignore
+ create mode 100644 node_modules/isarray/.travis.yml
+ create mode 100644 node_modules/isarray/Makefile
+ create mode 100644 node_modules/isarray/README.md
+ create mode 100644 node_modules/isarray/component.json
+ create mode 100644 node_modules/isarray/index.js
+ create mode 100644 node_modules/isarray/package.json
+ create mode 100644 node_modules/isarray/test.js
+ create mode 100644 node_modules/mime-db/HISTORY.md
+ create mode 100644 node_modules/mime-db/LICENSE
+ create mode 100644 node_modules/mime-db/README.md
+ create mode 100644 node_modules/mime-db/db.json
+ create mode 100644 node_modules/mime-db/index.js
+ create mode 100644 node_modules/mime-db/package.json
+ create mode 100644 node_modules/mysql/Changes.md
+ create mode 100644 node_modules/mysql/License
+ create mode 100644 node_modules/mysql/Readme.md
+ create mode 100644 node_modules/mysql/index.js
+ create mode 100644 node_modules/mysql/lib/Connection.js
+ create mode 100644 node_modules/mysql/lib/ConnectionConfig.js
+ create mode 100644 node_modules/mysql/lib/Pool.js
+ create mode 100644 node_modules/mysql/lib/PoolCluster.js
+ create mode 100644 node_modules/mysql/lib/PoolConfig.js
+ create mode 100644 node_modules/mysql/lib/PoolConnection.js
+ create mode 100644 node_modules/mysql/lib/PoolNamespace.js
+ create mode 100644 node_modules/mysql/lib/PoolSelector.js
+ create mode 100644 node_modules/mysql/lib/protocol/Auth.js
+ create mode 100644 node_modules/mysql/lib/protocol/BufferList.js
+ create mode 100644 node_modules/mysql/lib/protocol/PacketHeader.js
+ create mode 100644 node_modules/mysql/lib/protocol/PacketWriter.js
+ create mode 100644 node_modules/mysql/lib/protocol/Parser.js
+ create mode 100644 node_modules/mysql/lib/protocol/Protocol.js
+ create mode 100644 node_modules/mysql/lib/protocol/ResultSet.js
+ create mode 100644 node_modules/mysql/lib/protocol/SqlString.js
+ create mode 100644 node_modules/mysql/lib/protocol/Timer.js
+ create mode 100644 node_modules/mysql/lib/protocol/constants/charsets.js
+ create mode 100644 node_modules/mysql/lib/protocol/constants/client.js
+ create mode 100644 node_modules/mysql/lib/protocol/constants/errors.js
+ create mode 100644 node_modules/mysql/lib/protocol/constants/field_flags.js
+ create mode 100644 node_modules/mysql/lib/protocol/constants/server_status.js
+ create mode 100644 node_modules/mysql/lib/protocol/constants/ssl_profiles.js
+ create mode 100644 node_modules/mysql/lib/protocol/constants/types.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/AuthSwitchRequestPacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/AuthSwitchResponsePacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/ComPingPacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/ComQueryPacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/ComQuitPacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/ComStatisticsPacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/EmptyPacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/EofPacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/ErrorPacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/Field.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/FieldPacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/OkPacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/OldPasswordPacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/RowDataPacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/SSLRequestPacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/StatisticsPacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/UseOldPasswordPacket.js
+ create mode 100644 node_modules/mysql/lib/protocol/packets/index.js
+ create mode 100644 node_modules/mysql/lib/protocol/sequences/ChangeUser.js
+ create mode 100644 node_modules/mysql/lib/protocol/sequences/Handshake.js
+ create mode 100644 node_modules/mysql/lib/protocol/sequences/Ping.js
+ create mode 100644 node_modules/mysql/lib/protocol/sequences/Query.js
+ create mode 100644 node_modules/mysql/lib/protocol/sequences/Quit.js
+ create mode 100644 node_modules/mysql/lib/protocol/sequences/Sequence.js
+ create mode 100644 node_modules/mysql/lib/protocol/sequences/Statistics.js
+ create mode 100644 node_modules/mysql/lib/protocol/sequences/index.js
+ create mode 100644 node_modules/mysql/package.json
+ create mode 100644 node_modules/process-nextick-args/index.js
+ create mode 100644 node_modules/process-nextick-args/license.md
+ create mode 100644 node_modules/process-nextick-args/package.json
+ create mode 100644 node_modules/process-nextick-args/readme.md
+ create mode 100644 node_modules/readable-stream/.travis.yml
+ create mode 100644 node_modules/readable-stream/CONTRIBUTING.md
+ create mode 100644 node_modules/readable-stream/GOVERNANCE.md
+ create mode 100644 node_modules/readable-stream/LICENSE
+ create mode 100644 node_modules/readable-stream/README.md
+ create mode 100644 node_modules/readable-stream/doc/wg-meetings/2015-01-30.md
+ create mode 100644 node_modules/readable-stream/duplex-browser.js
+ create mode 100644 node_modules/readable-stream/duplex.js
+ create mode 100644 node_modules/readable-stream/lib/_stream_duplex.js
+ create mode 100644 node_modules/readable-stream/lib/_stream_passthrough.js
+ create mode 100644 node_modules/readable-stream/lib/_stream_readable.js
+ create mode 100644 node_modules/readable-stream/lib/_stream_transform.js
+ create mode 100644 node_modules/readable-stream/lib/_stream_writable.js
+ create mode 100644 node_modules/readable-stream/lib/internal/streams/BufferList.js
+ create mode 100644 node_modules/readable-stream/lib/internal/streams/destroy.js
+ create mode 100644 node_modules/readable-stream/lib/internal/streams/stream-browser.js
+ create mode 100644 node_modules/readable-stream/lib/internal/streams/stream.js
+ create mode 100644 node_modules/readable-stream/package.json
+ create mode 100644 node_modules/readable-stream/passthrough.js
+ create mode 100644 node_modules/readable-stream/readable-browser.js
+ create mode 100644 node_modules/readable-stream/readable.js
+ create mode 100644 node_modules/readable-stream/transform.js
+ create mode 100644 node_modules/readable-stream/writable-browser.js
+ create mode 100644 node_modules/readable-stream/writable.js
+ create mode 100644 node_modules/safe-buffer/LICENSE
+ create mode 100644 node_modules/safe-buffer/README.md
+ create mode 100644 node_modules/safe-buffer/index.d.ts
+ create mode 100644 node_modules/safe-buffer/index.js
+ create mode 100644 node_modules/safe-buffer/package.json
+ create mode 100644 node_modules/sqlstring/HISTORY.md
+ create mode 100644 node_modules/sqlstring/LICENSE
+ create mode 100644 node_modules/sqlstring/README.md
+ create mode 100644 node_modules/sqlstring/index.js
+ create mode 100644 node_modules/sqlstring/lib/SqlString.js
+ create mode 100644 node_modules/sqlstring/package.json
+ create mode 100644 node_modules/string_decoder/.travis.yml
+ create mode 100644 node_modules/string_decoder/LICENSE
+ create mode 100644 node_modules/string_decoder/README.md
+ create mode 100644 node_modules/string_decoder/lib/string_decoder.js
+ create mode 100644 node_modules/string_decoder/package.json
+ create mode 100644 node_modules/util-deprecate/History.md
+ create mode 100644 node_modules/util-deprecate/LICENSE
+ create mode 100644 node_modules/util-deprecate/README.md
+ create mode 100644 node_modules/util-deprecate/browser.js
+ create mode 100644 node_modules/util-deprecate/node.js
+ create mode 100644 node_modules/util-deprecate/package.json
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 s1.js
+ create mode 100644 {
+
+C:\myproject>git remote add origin https://github.com/gondesiasha/myapiproject.git
+
+C:\myproject>git push origin master
+Enumerating objects: 467, done.
+Counting objects: 100% (467/467), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (418/418), done.
+Writing objects: 100% (467/467), 535.97 KiB | 4.36 MiB/s, done.
+Total 467 (delta 87), reused 0 (delta 0)
+remote: Resolving deltas: 100% (87/87), done.
+To https://github.com/gondesiasha/myapiproject.git
+ * [new branch]      master -> master
+
+C:\myproject>git add .
+
+C:\myproject>git commit -m "after version"
+[master 4370c02] after version
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\myproject>git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 285 bytes | 285.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/gondesiasha/myapiproject.git
+   4ef580d..4370c02  master -> master
+
+C:\myproject>
+C:\myproject>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\myproject>git log
+commit 4370c0270e21212563f0bbba0d32b54f0381c0ee (HEAD -> master, origin/master)
+Author: asha <gondesiasha123@gmail.com>
+Date:   Fri Jun 7 11:34:37 2019 -0700
+
+    after version
+
+commit 4ef580d831384a08138697748164cde9bd613f7f
+Author: asha <gondesiasha123@gmail.com>
+Date:   Fri Jun 7 11:23:48 2019 -0700
+
+    initial version
+
+C:\myproject>git checkout  4ef580d831384a08138697748164cde9bd613f7f
+Note: checking out '4ef580d831384a08138697748164cde9bd613f7f'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 4ef580d initial version
+
+C:\myproject>git checkout  4370c0270e21212563f0bbba0d32b54f0381c0ee
+Previous HEAD position was 4ef580d initial version
+HEAD is now at 4370c02 after version
+
+C:\myproject>
